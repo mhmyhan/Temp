@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BooksLinq")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a82e3f01922d03ac2eede552ee9d212104184aca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de6edfe32c175d26b24bc4450a0a2c8b040663d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("BooksLinq")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BooksLinq")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
