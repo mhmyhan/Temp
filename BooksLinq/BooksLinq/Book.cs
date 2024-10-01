@@ -2,10 +2,9 @@
 
 public class Book
 {
-    //test
     private int Id { get; set; }
     private String Title { get; set; }
-    private String Author { get; set; }
+    public String Author { get; set; }
     private int PageCount { get; set; }
     private String Publisher { get; set; }
     private int PublishedYear { get; set; }

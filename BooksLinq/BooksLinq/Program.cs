@@ -58,3 +58,11 @@ books.AddRange(new List<Book>
     }
 );
 
+Console.WriteLine("\nTolkien Books");
+
+var tolkienBooks = books
+    .Where(b => b.Author == "Tolkien")
+    .ToList();
+
+DisplayBookList(tolkienBooks);
+
