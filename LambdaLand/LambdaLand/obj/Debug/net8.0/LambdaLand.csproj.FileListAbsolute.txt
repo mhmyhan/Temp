@@ -1,0 +1,14 @@
+C:\Users\User\RiderProjects\LambdaLand\LambdaLand\bin\Debug\net8.0\LambdaLand.exe
+C:\Users\User\RiderProjects\LambdaLand\LambdaLand\bin\Debug\net8.0\LambdaLand.deps.json
+C:\Users\User\RiderProjects\LambdaLand\LambdaLand\bin\Debug\net8.0\LambdaLand.runtimeconfig.json
+C:\Users\User\RiderProjects\LambdaLand\LambdaLand\bin\Debug\net8.0\LambdaLand.dll
+C:\Users\User\RiderProjects\LambdaLand\LambdaLand\bin\Debug\net8.0\LambdaLand.pdb
+C:\Users\User\RiderProjects\LambdaLand\LambdaLand\obj\Debug\net8.0\LambdaLand.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\RiderProjects\LambdaLand\LambdaLand\obj\Debug\net8.0\LambdaLand.AssemblyInfoInputs.cache
+C:\Users\User\RiderProjects\LambdaLand\LambdaLand\obj\Debug\net8.0\LambdaLand.AssemblyInfo.cs
+C:\Users\User\RiderProjects\LambdaLand\LambdaLand\obj\Debug\net8.0\LambdaLand.csproj.CoreCompileInputs.cache
+C:\Users\User\RiderProjects\LambdaLand\LambdaLand\obj\Debug\net8.0\LambdaLand.dll
+C:\Users\User\RiderProjects\LambdaLand\LambdaLand\obj\Debug\net8.0\refint\LambdaLand.dll
+C:\Users\User\RiderProjects\LambdaLand\LambdaLand\obj\Debug\net8.0\LambdaLand.pdb
+C:\Users\User\RiderProjects\LambdaLand\LambdaLand\obj\Debug\net8.0\LambdaLand.genruntimeconfig.cache
+C:\Users\User\RiderProjects\LambdaLand\LambdaLand\obj\Debug\net8.0\ref\LambdaLand.dll
