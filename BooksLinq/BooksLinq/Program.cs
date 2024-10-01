@@ -74,3 +74,11 @@ var tolkienBooks = books
 
 DisplayBookList(tolkienBooks);
 
+Console.WriteLine("\nTolkien Books");
+
+var tolkienBooks = books
+    .Where(b => b.Author == "Tolkien")
+    .ToList();
+
+DisplayBookList(tolkienBooks);
+
