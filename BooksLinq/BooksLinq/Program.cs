@@ -186,3 +186,17 @@ var booksSortedByGenreAndTitle = books
     
 DisplayBookList(booksSortedByGenreAndTitle);
 
+Console.WriteLine("\nOldest and Newest Books - Year Published");
+
+var oldestBookYear = books
+                        .Select(b => b.PublishedYear)   // extract the years
+                        .Min();                             // find the minimum
+
+Console.WriteLine($"Oldest year published: {oldestBookYear}");
+
+var newestBookYear = books
+    .Max(b => b.PublishedYear);
+
+Console.WriteLine($"Newest year published: {newestBookYear}");
+     
+

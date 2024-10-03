@@ -7,7 +7,7 @@ public class Book
     public String Author { get; set; }
     public int PageCount { get; set; }
     private String Publisher { get; set; }
-    private int PublishedYear { get; set; }
+    public int PublishedYear { get; set; }
     public String Genre { get; set; }
     private Boolean IsClassic { get; set; }
 
