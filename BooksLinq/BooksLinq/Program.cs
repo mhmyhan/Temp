@@ -90,12 +90,20 @@ books.AddRange(new List<Book>
 });
 
 
-Console.WriteLine("\nTolkien Books");
+Console.WriteLine("\nTolkien and Coelho Books");
 // fuzzy search algorithm?
-var tolkienBooks = books
+var tolkienAndCoelhoBooks = books
     .Where(b => b.Author is "J.R.R. Tolkien" or "Paulo Coelho")
     .ToList();
 
-DisplayBookList(tolkienBooks);
+DisplayBookList(tolkienAndCoelhoBooks);
+
+Console.WriteLine("\nBooks with 'IS' in the title");
+
+var isBooks = books
+    .Where(b=> b.Title.Contains("is",StringComparison.CurrentCultureIgnoreCase))
+    .ToList();
+
+DisplayBookList(isBooks);
 
 
