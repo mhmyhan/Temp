@@ -10,10 +10,9 @@ static void DisplayBookList(List<Book> bookList)
     {
         Console.WriteLine(book);
     }
-    
 }
 
-// create book list and add options
+// create book list and add items
 var books = new List<Book>();
 
 books.AddRange(new List<Book>
@@ -94,7 +93,7 @@ books.AddRange(new List<Book>
 Console.WriteLine("\nTolkien Books");
 // fuzzy search algorithm?
 var tolkienBooks = books
-    .Where(b => b.Author == "J.R.R. Tolkien")
+    .Where(b => b.Author is "J.R.R. Tolkien" or "Paulo Coelho")
     .ToList();
 
 DisplayBookList(tolkienBooks);
