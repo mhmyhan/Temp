@@ -8,7 +8,7 @@ public class Book
     public int PageCount { get; set; }
     private String Publisher { get; set; }
     private int PublishedYear { get; set; }
-    private String Genre { get; set; }
+    public String Genre { get; set; }
     private Boolean IsClassic { get; set; }
 
     // Default Constructor

@@ -114,4 +114,10 @@ var mediumSizeBooks = books
 
 DisplayBookList(mediumSizeBooks);
 
+Console.WriteLine("\nBooks in the Autobiography and Romance Genre");
 
+var genrefilterList = new List<string> { "Autobiography", "Romance" };
+
+var GenreFilteredBooks = books
+    .Where(b => genrefilterList.Contains(b.Genre))
+    .ToList();
