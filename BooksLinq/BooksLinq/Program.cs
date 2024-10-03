@@ -106,4 +106,12 @@ var isBooks = books
 
 DisplayBookList(isBooks);
 
+Console.WriteLine("\nBooks with a page count between 450 and 1000 (inclusive)");
+
+var mediumSizeBooks = books
+    .Where(b => b.PageCount is >= 450 and <= 1000)
+    .ToList();
+
+DisplayBookList(mediumSizeBooks);
+
 

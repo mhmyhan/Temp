@@ -5,7 +5,7 @@ public class Book
     private int Id { get; set; }
     public String Title { get; set; }
     public String Author { get; set; }
-    private int PageCount { get; set; }
+    public int PageCount { get; set; }
     private String Publisher { get; set; }
     private int PublishedYear { get; set; }
     private String Genre { get; set; }
