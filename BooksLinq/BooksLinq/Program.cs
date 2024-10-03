@@ -162,6 +162,16 @@ Console.WriteLine("\nBooks in the Autobiography and Romance Genre");
 
 var genrefilterList = new List<string> { "Autobiography", "Romance" };
 
-var GenreFilteredBooks = books
+var genreFilteredBooks = books
     .Where(b => genrefilterList.Contains(b.Genre))
     .ToList();
+    
+DisplayBookList(genreFilteredBooks);
+
+Console.WriteLine("\nBooks Ordered by Genre:");
+
+var booksSortedByGenre = books
+    .OrderBy(b => b.Genre)
+    .ToList();
+    
+DisplayBookList(booksSortedByGenre);
